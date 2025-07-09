@@ -40,9 +40,8 @@ content="width=device-width, initial-scale=1">
           </div>
         </div>
 
-        <form action="window.location='cards.html';">
-    <input id="fom" type="submit" value="Go to Gallery" />
-</form>
+    <input type="submit"  onclick="window.location='cards.html" alt="Submit"
+        id="btn1">
 
        <!-- <div class="retry">
             <input type="image" src="btn1.png" onclick="location.reload();" alt="Submit"
@@ -83,7 +82,7 @@ content="width=device-width, initial-scale=1">
                 console.log(data)
                 
                 setTimeout(()=>{
-                    document.getElementById('crd').src = "cards/" + data[memb].card;
+                    document.getElementById('crd').src = "./cards/" + data[memb].card;
                     //text.innerHTML = "cards/" + memb + "frnt.png";//
                         crd.style.display = 'block'
                         flip.style.display = 'block'
