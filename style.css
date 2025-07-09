@@ -80,7 +80,7 @@ html, body{
 
 
 
-@media  (max-width:450px) {
+@media  (max-width:1000px) {
 html, body{
     margin-right: auto;
     margin-left: auto;
@@ -88,8 +88,12 @@ html, body{
 
 }
 
+
+
 #logo {
-    padding-top:80vw ;
+    position: relative;
+    margin-top: 35%;
+    padding-top:auto ;
     width: 70vw;
     display: block;
     margin-right: auto;
@@ -103,6 +107,37 @@ html, body{
 }
 
 #btn1 {
-    align-items: center;
+    margin-top: 0%;
+    display: block;
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.3s;
+
 }
 
+#btn1:hover {
+  width: 45vw;
+}
+
+#load{
+  width: 10vw;
+}
+
+#loading {
+    position: fixed;
+    padding: 0;
+    left: 44.5%;
+    display: none;
+    animation:spin 1s infinite  ;
+}
+
+
+
+@keyframes spin { 
+   
+    to { 
+        transform:rotate(180deg); 
+        
+    } 
+  }
