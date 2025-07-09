@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" 
+content="width=device-width, initial-scale=1">
+<title>COSMO: DESSSTINY</title>
+<link rel="stylesheet" href="cards.css">
+</head>
+
+<body>
+    
+    
+    <div>
+        <img src="cosmologost.png" onload="start()" onclick="window.location='index.html';" alt="cosmologo" id="logo">
+    </div>
+    
+    <br>
+    <div class="sets">
+    
+    <div class="cord">
+        <img src="cards/backcrds.png" class="crd" id="s1"   width="145vw">
+        <img src="cards/backcrds.png" class="crd" id="hyerin" width="145vw">
+        <img src="cards/jiwoofrnt.png" class="crd" id="jiwoo" width="145vw">
+        <img src="cards/backcrds.png" class="crd" id="s4"  width="145vw">
+        <img src="cards/yooyeonfrnt.png" class="crd" id="yooyeon" width="145vw">
+        <img src="cards/soominfrnt.png" class="crd" id="s6" width="145vw">
+        <img src="cards/nakyoungfrnt.png" class="crd" id="s7" width="145vw">
+        <img src="cards/yubinfrnt.png" class="crd" id="s8" width="145vw">
+    </div>
+    <div class="cord1">
+        <img src="cards/backcrds.png" class="crd"  id="s9" width="145vw" >
+        <img src="cards/dahyunfrnt.png" class="crd"  id="s10"width="145vw">
+        <img src="cards/backcrds.png" class="crd"  id="s11" width="145vw">
+        <img src="cards/yeonjifrnt.png" class="crd" id="s12" width="145vw">
+        <img src="cards/nienfrnt.png" class="crd" id="s13" width="145vw">
+        <img src="cards/sohyunfrnt.png" class="crd" id="s14" width="145vw">
+        <img src="cards/xinyufrnt.png" class="crd" id="s15" width="145vw">
+        <img src="cards/mayufrnt.png" class="crd" id="s16" width="145vw">
+    </div>
+
+    <div class="cord2">
+        <img src="cards/backcrds.png" class="crd" id="s17" width="145vw">
+        <img src="cards/joobinfrnt.png" class="crd" id="s18" width="145vw">
+        <img src="cards/backcrds.png" class="crd"  id="s19" width="145vw">
+        <img src="cards/backcrds.png" class="crd"  id="s20" width="145vw">
+        <img src="cards/backcrds.png" class="crd"  id="s21" width="145vw">
+        <img src="cards/backcrds.png" class="crd"  id="s22" width="145vw">
+        <img src="cards/backcrds.png" class="crd"  id="s23" width="145vw">
+        <img src="cards/jiyeonfrnt.png" class="crd" id="s24" width="145vw">
+    </div>
+    </div>
+    
+
+    <div id="popup">
+        <p id="txtbox"></p>
+        <img id="crds">
+    </div>
+
+
+       
+    <script>
+
+            fetch('data.json')
+            .then (response => response.json())
+            .then (data => {
+                console.log(data)
+
+            
+
+            document.addEventListener('click', e => {
+                console.log(e.target)
+                //alert(String(e.target.id))
+                if (String(e.target.id) in data)
+            {
+                    var cards = document.querySelector('#crds');
+                    var pops = document.getElementById('popup');
+                    const paps = document.querySelector('#popup');
+                    const crd = document.querySelector('.crd');
+                    var ids = document.querySelector('.crd').id;
+                    var crl = e.target.id
+                    
+                    
+                    if(String(e.target.class) = 'crd'){
+                        document.getElementById('crds').src = "/cards/" + data[crl].card;
+
+                        pops.style.display = 'block'
+                    }
+                    else {
+                        
+                    }
+            }
+
+              
+                
+            })
+           
+
+
+             });
+            
+        
+
+            //card.onclick = function() {
+            //document.getElementById('crds').src = "/cards/jiwoofrnt.png";
+            // modal.style.display = "block";
+//}
+            //window.onclick = function(event) {
+            //if (event.target == modal) {
+             //modals.style.display = "none";
+            //}
+        //}
+
+       // }
+        
+        
+
+    </script>
+</body>
+
+</html>

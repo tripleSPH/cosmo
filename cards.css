@@ -1,0 +1,86 @@
+html, body{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(bgs.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo {
+    position: relative;
+    padding-top:1vw ;
+    width: 10vw;
+    margin-left: 4vw;
+    display: block;
+ 
+}
+
+.hide {
+    display: none;
+}
+
+.cord {
+    place-self: center;
+}
+
+.cord1 {
+    place-self: center;
+}
+.cord2 {
+    place-self: center;
+}
+
+.crd {
+    place-content: center;
+    padding: 0.5vw;
+    transition: 0.3s;
+
+}
+
+.crd:hover {
+    filter: brightness(2);
+}
+
+#crds {
+    position: absolute;
+    height: 32vw;
+    left: 1.5vw;
+    bottom: 2.35vw;
+    
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    bottom: 12.3%;
+    left: 20%;
+
+    
+}
+
+
+
+#txtbox {
+    position: absolute;
+    height: 35vw;
+    left: 20%;
+    bottom: 12.3%;
+    width: 60vw;
+    background: rgb(13, 20, 59);
+    margin-top:-50vw;
+    place-self: center;
+    opacity: 0.85;
+    margin-top: -38vw;
+}
+
+
+@media  (max-width:450px) {
+html, body{
+    
+    padding: 0;
+
+}
+
+}

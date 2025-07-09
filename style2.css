@@ -1,0 +1,244 @@
+html, body{
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(bgs.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#logo {
+    position: relative;
+    padding-top:1vw ;
+    width: 10vw;
+    margin-left: 1vw;
+    display: block;
+    animation: none;
+    animation-duration: 0;
+    animation-fill-mode:none;
+}
+
+#fom {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5vw;
+}
+
+
+/*@keyframes slideup { 
+  from {
+    transform: translate(0vw,0vw);
+    
+  }
+  to {
+    transform: translate(0vw,-15vw);
+    width: 20vw;
+  }
+    
+  }*/
+
+
+#btn2 {
+    margin-top: -40.5%;
+    display: none;
+    width: 40vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.popup {
+    display: block;
+    margin-top: 3.25%;
+    margin-left: 25%;
+    height: 30vw;
+    width: 60vw;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+#crd{
+    display: none;
+    height: 30vw;
+    margin-top: 0%;
+    animation: slideleft;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    box-shadow: 10vw;
+}
+
+
+#pptxt {
+  display: none;
+  width: 40vw;
+  height: 30vw;
+  margin-top: -33%;
+  margin-left: 35%;
+  font-family: Georgia;
+  font-size: 3.5vw;
+width: 30vw;
+  color: aliceblue;
+  animation: fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  
+}
+
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+     opacity: 1;
+  }
+}
+
+@keyframes slideleft {
+  from {
+      margin-left: 10vw;
+      opacity: 0;
+      transform: rotate(0deg);
+  }
+  to {
+     margin-left: 0vw;
+     opacity: 1;
+     transform: rotate(-10deg);
+  }
+}
+
+
+
+/*#crd {
+    display: none;
+    height: 30vw;
+    margin-right: auto;
+    margin-top: 0%;
+    animation: slideleft;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+
+#pptxt {
+  display: none;
+  width: 40vw;
+  height: 30vw;
+  margin-top: -30.9%;
+  background: rgba(39, 26, 87, 0.6) ;
+  margin-left: 45vw;
+  align-content: center;
+  text-align: center;
+  font-size: 4vw;
+  color: aliceblue;
+  animation: fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+     opacity: 1;
+  }
+}
+
+@keyframes slideleft {
+  from {
+      margin-left: 55vw;
+      opacity: 0;
+  }
+  to {
+     margin-left: 23vw;
+     opacity: 1;
+  }
+}
+*/
+#buttons {
+    display: none;
+    text-align: center;
+    margin-top: 1.5%;
+    
+}
+
+
+
+@media  (max-width:1000px) {
+html, body{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+}
+
+#logo {
+    position: relative;
+    padding-top:1vw ;
+    width: 30vw;
+    margin-left: 1vw;
+    display: block;
+    animation: none;
+    animation-duration: 0;
+    animation-fill-mode:none;
+}
+
+
+.intro{
+    display: block;
+    text-align: center;
+}
+
+
+
+.popup {
+    display: block;
+    margin-top: 50%;
+    margin-left: 13%;
+    height: 30vw;
+    width: 60vw;
+    align-content: center;
+    text-align: center;
+
+
+}
+
+#crd{
+    display: none;
+    height: 40vw;
+    margin-top: 0%;
+    animation: slideleft;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    box-shadow: 10vw;
+}
+
+#pptxt {
+  display: none;
+  width: 45vw;
+  height: 30vw;
+  margin-top: -50%;
+  margin-left: 50%;
+  font-family: Georgia;
+  font-size: 4.5vw;
+  color: aliceblue;
+  animation: fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  
+}
+
+#fom {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20vw;
+}
+
+
+}

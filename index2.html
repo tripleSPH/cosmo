@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" 
+content="width=device-width, initial-scale=1">
+<title>COSMO: DESSSTINY</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    
+    <!--<div class="logos">
+
+    
+  
+    <input type="image" src="btn1.png" onclick="start()" alt="Submit"
+        id="btn1">
+
+    </div>
+    
+
+
+    <div class="intro">
+        
+        <div id="loading">
+          <img src="load.png" alt="loading" id="load">
+        </div>
+        
+    </div>-->
+    <div>
+        <img src="cosmologost.png" onload="start()" onclick="window.location='index.html';" alt="cosmologo" id="logo">
+    </div>
+    
+    <br>
+        <div class="popup">
+          <img id="crd">
+          <p id="pptxt"></p>
+          <div id="memp">
+
+          </div>
+        </div>
+
+       <!-- <div class="retry">
+            <input type="image" src="btn1.png" onclick="location.reload();" alt="Submit"
+        id="btn2">
+            <div id="buttons">
+            <button>SNS TSPH</button>
+            <button>VIEW COLLECTION</button>
+            </div>
+        </div>-->
+
+    <script>
+        
+       function start() {
+        var logos = document.getElementById('logo');
+        var flip = document.getElementById('fc');
+        var card = document.getElementById('crd');
+        var poptext = document.getElementById('pptxt');
+        var text = document.getElementById('test');
+        var lets1 = document.getElementById('btn2');
+        var bout = document.getElementById('buttons');
+        var mem = ["jiwoo","yooyeon", "soomin","nakyoung","yubin","dahyun", "yeonji", "nien", "sohyun", "xinyu", "mayu", "joobin"
+          , "jiyeon"
+        ]
+        var mems = mem.length;
+        var pck1 = Math.floor(Math.random()*mems);
+        var memb = mem.at(pck1);
+        //setTimeout(()=>{
+
+         //   logos.style.animation = 'slideup'
+        //    logos.style.animationDuration = '3s'
+        //    logos.style.animationFillMode = 'both'
+   
+        //},500)
+
+        fetch('data.json')
+            .then (response => response.json())
+            .then (data => {
+                console.log(data)
+                
+                setTimeout(()=>{
+                    document.getElementById('crd').src = "/cards/" + data[memb].card;
+                    //text.innerHTML = "cards/" + memb + "frnt.png";//
+                        crd.style.display = 'block'
+                        flip.style.display = 'block'
+
+                    },1500)
+
+                    setTimeout(()=>{
+            
+                        document.querySelector("#pptxt").innerHTML = data[memb].qty
+                        poptext.style.display = 'block'
+                        lets1.style.display = 'block'
+                        bout.style.display = 'block'
+                        crd.style.animation = '2s'
+
+                    },2500)
+
+         });
+       }
+         
+
+    </script>
+</body>
+
+</html>

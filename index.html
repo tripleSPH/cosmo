@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" 
+content="width=device-width, initial-scale=1">
+<title>COSMO: DESSSTINY</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="logos">
+
+    <img src="cosmologost.png" alt="cosmologo" id="logo">
+  
+    <input type="image" src="btn.png" onclick="start()" alt="Submit"
+        id="btn1">
+
+    </div>
+    
+
+
+    <div class="intro">
+        
+        <div id="loading">
+          <img src="load.png" alt="loading" id="load" on>
+        </div>
+        
+    </div>
+    
+   <!--<br>
+        <div class="popup">
+          <img id="crd">
+          <p id="test"></p>
+          <p id="pptxt"></p>
+        </div>
+
+        <div class="retry">
+            <input type="image" src="btn1.png" onclick="location.reload();" alt="Submit"
+        id="btn2">
+            <div id="buttons">
+            <button>SNS TSPH</button>
+            <button>VIEW COLLECTION</button>
+            </div>
+        </div>-->
+
+    <script>
+
+
+       function start() {
+        var logos = document.getElementById('logo');
+        var lets = document.getElementById('btn1');
+        var was = document.getElementById('loading');
+        var txt1 = document.getElementById('txt1');
+        var flip = document.getElementById('fc');
+        var txtbg1 = document.getElementById('txtbg');
+        var card = document.getElementById('crd');
+        var poptext = document.getElementById('pptxt');
+        var text = document.getElementById('test');
+        var lets1 = document.getElementById('btn2');
+        var bout = document.getElementById('buttons');
+
+
+
+        was.style.display = 'block'
+        lets.style.display = 'none'
+        setTimeout(()=>{
+            was.style.display = 'none'
+            txt1.style.display = 'none'
+            txt2.style.display = 'none'
+            txtbg1.style.display = 'none'
+            lets1.style.display = 'none'
+            
+        },6000)
+
+        setTimeout(()=>{
+            window.location = 'index2.html';
+            
+        },6200)
+
+        
+       }
+        
+
+    </script>
+</body>
+
+</html>
