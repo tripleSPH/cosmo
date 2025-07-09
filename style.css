@@ -109,7 +109,7 @@ html, body{
 #btn1 {
     margin-top: 0%;
     display: block;
-    width: 60vw;
+    width: 70vw;
     margin-right: auto;
     margin-left: auto;
     transition: 0.3s;
@@ -117,7 +117,7 @@ html, body{
 }
 
 #btn1:hover {
-  width: 45vw;
+  width: 75vw;
 }
 
 #load{
