@@ -83,8 +83,8 @@ content="width=device-width, initial-scale=1">
                 console.log(data)
                 
                 setTimeout(()=>{
-                    
-                    document.getElementById('crd').src = "../cards/" + data[memb].card;
+                    let x = /cards/" + data[memb].card;
+                    document.getElementById('crd').src = window.location=x;
                     //text.innerHTML = "cards/" + memb + "frnt.png";//
                         crd.style.display = 'block'
                         flip.style.display = 'block'
