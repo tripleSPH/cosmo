@@ -30,7 +30,7 @@ html, body{
 #btn1 {
     margin-top: 0%;
     display: block;
-    width: 40vw;
+    width: 45vw;
     margin-right: auto;
     margin-left: auto;
     transition: 0.3s;
@@ -38,7 +38,7 @@ html, body{
 }
 
 #btn1:hover {
-  width: 45vw;
+  width: 50vw;
 }
 
 
@@ -76,10 +76,6 @@ html, body{
 
 
 
-
-
-
-
 @media  (max-width:1000px) {
 html, body{
     margin-right: auto;
@@ -99,7 +95,7 @@ html, body{
     margin-right: auto;
     margin-left: auto;
 }
-}
+
 
 .intro{
     display: block;
@@ -109,7 +105,7 @@ html, body{
 #btn1 {
     margin-top: 0%;
     display: block;
-    width: 70vw;
+    width: 46vw;
     margin-right: auto;
     margin-left: auto;
     transition: 0.3s;
@@ -117,7 +113,7 @@ html, body{
 }
 
 #btn1:hover {
-  width: 75vw;
+  width: 60vw;
 }
 
 #load{
@@ -141,3 +137,6 @@ html, body{
         
     } 
   }
+
+  
+}
