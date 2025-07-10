@@ -3,11 +3,14 @@
 <head>
 <meta name="viewport" 
 content="width=device-width, initial-scale=1">
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
 <title>COSMO: DESSSTINY</title>
 <link rel="stylesheet" href="style2.css">
 </head>
 
-<body>
+<body >
     
     <!--<div class="logos">
 
@@ -28,21 +31,20 @@ content="width=device-width, initial-scale=1">
         
     </div>-->
     <div>
-        <img src="cosmologost.png" onload="start()" onclick="window.location='index.html';" alt="cosmologo" id="logo">
+        <img src="cosmologost.png" onclick="window.location='index.html';" alt="cosmologo" id="logo">
     </div>
     
     <br>
         <div class="popup">
-          <img src="none" id="crd">
+          <img scr="" id="crd">
           <p id="pptxt"></p>
           <div id="memp">
 
           </div>
         </div>
+        
+    <button id="fom" type="submit" onclick="window.location='cards.html'">Go to Gallery</button>
 
-        <form action="cards.html">
-    <input id="fom" type="submit" value="Go to Gallery" />
-</form>
 
        <!-- <div class="retry">
             <input type="image" src="btn1.png" onclick="location.reload();" alt="Submit"
@@ -55,9 +57,12 @@ content="width=device-width, initial-scale=1">
 
     <script>
         
+        start()
+
+
+
        function start() {
         var logos = document.getElementById('logo');
-        var flip = document.getElementById('fc');
         var card = document.getElementById('crd');
         var poptext = document.getElementById('pptxt');
         var text = document.getElementById('test');
@@ -83,11 +88,11 @@ content="width=device-width, initial-scale=1">
                 console.log(data)
                 
                 setTimeout(()=>{
-                    alert(data[memb].card)
-                    document.getElementById('crd').src = "..\cards\" + data[memb].card;
+                    //alert(data[memb].card)
+                    document.getElementById('crd').src = "../cards/" + data[memb].card;
                     //text.innerHTML = "cards/" + memb + "frnt.png";//
                         crd.style.display = 'block'
-                        flip.style.display = 'block'
+
 
                     },1500)
 
@@ -95,7 +100,6 @@ content="width=device-width, initial-scale=1">
             
                         document.querySelector("#pptxt").innerHTML = data[memb].qty
                         poptext.style.display = 'block'
-                        lets1.style.display = 'block'
                         bout.style.display = 'block'
                         crd.style.animation = '2s'
 
