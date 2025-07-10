@@ -10,8 +10,8 @@ html, body{
 
 #logo {
     position: relative;
-    padding-top:15vw ;
-    width: 40vw;
+    padding-top:15% ;
+    width: 40%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -30,7 +30,7 @@ html, body{
 #btn1 {
     margin-top: 0%;
     display: block;
-    width: 45vw;
+    width: 45%;
     margin-right: auto;
     margin-left: auto;
     transition: 0.3s;
@@ -46,20 +46,20 @@ html, body{
 #btn2 {
     margin-top: -40.5%;
     display: none;
-    width: 40vw;
+    width: 40%;
     margin-right: auto;
     margin-left: auto;
 
 }
 
 #load{
-  width: 5vw;
+  width: 8%;
 }
 
 #loading {
     position: fixed;
     padding: 0;
-    left: 47%;
+    left: 23%;
     display: none;
     animation:spin 1s infinite  ;
 }
@@ -90,7 +90,7 @@ html, body{
     position: relative;
     margin-top: 35%;
     padding-top:auto ;
-    width: 85vw;
+    width: 85%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -105,7 +105,7 @@ html, body{
 #btn1 {
     margin-top: 0%;
     display: block;
-    width: 85vw;
+    width: 85%;
     margin-right: auto;
     margin-left: auto;
     transition: 0.3s;
@@ -115,7 +115,7 @@ html, body{
 
 
 #load{
-  width: 17vw;
+  width: 17%;
 }
 
 #loading {
