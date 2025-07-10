@@ -194,7 +194,7 @@ html, body{
 
 #crd{
     display: none;
-    height: 40%;
+    width: 48%;
     margin-top: 0%;
     animation: slideleft;
     animation-duration: 3s;
@@ -204,12 +204,12 @@ html, body{
 
 #pptxt {
   display: none;
-  width: 45%;
+  width: 60%;
   height: 30%;
   margin-top: -50%;
-  margin-left: 50%;
+  margin-left: 60%;
   font-family: Georgia;
-  font-size: 4.5%;
+  font-size: 16px;
   color: aliceblue;
   animation: fade;
   animation-duration: 4s;
@@ -218,11 +218,13 @@ html, body{
 }
 
 #fom {
+  font-size: 7px;
+  position: absolute;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20%;
+  left: 43.5%;
+  top: 57%;
 }
+
 
 
 }
