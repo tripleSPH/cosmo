@@ -17,30 +17,29 @@ html, body{
  
 }
 
+
+.sets {
+    padding-left: 16%;
+    padding-right: 13%;
+}
+
 .hide {
     display: none;
 }
 
-.cord {
-    place-self: center;
-}
 
-.cord1 {
-    place-self: center;
-}
-.cord2 {
-    place-self: center;
-}
 
 .crd {
     place-content: center;
     padding: 0.5vw;
     transition: 0.3s;
+    width: 143px;
 
 }
 
 .crd:hover {
     filter: brightness(2);
+    cursor: pointer;
 }
 
 #crds {
@@ -49,6 +48,7 @@ html, body{
     left: 1.5vw;
     bottom: 2.35vw;
     
+    
 }
 
 #popup {
@@ -56,7 +56,28 @@ html, body{
     position: absolute;
     bottom: 12.3%;
     left: 20%;
+    z-index: 999;
+    animation: none;
+    animation-duration: none;
+    animation-fill-mode: none;
 
+}
+
+@keyframes fdin {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#bgss {
+    position: fixed;
+    display: none;
+    bottom: -0.5%;
+    opacity: 0.8;
+    z-index: 998;
     
 }
 
@@ -75,12 +96,109 @@ html, body{
     margin-top: -38vw;
 }
 
+#txtbox2 {
+    display: block;
+    position: absolute;
+    height: 35vw;
+    left: 100%;
+    bottom: 12.3%;
+    width: 60vw;
+    background: rgb(0, 0, 0);
+    margin-top:-50vw;
+    place-self: center;
+    opacity: 0.85;
+    margin-top: -38vw;
+}
 
-@media  (max-width:450px) {
-html, body{
-    
-    padding: 0;
+
+@media screen and (max-width:1024px) {
+#logo {
+    position: relative;
+    padding-top:1vw ;
+    width: 10vw;
+    margin-left: 4vw;
+    display: block;
+ 
+}
+
+.sets {
+    padding-left: 14.5%;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.crd {
+    place-content: center;
+    padding: 0.5vw;
+    transition: 0.3s; 
+    width: 90px;
+
 
 }
+
+.crd:hover {
+    filter: brightness(2);
+    cursor: pointer;
+}
+
+#crds {
+    position: absolute;
+    height: 45vw;
+    left: 3vw;
+    bottom: 6.5vw;
+    
+    
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    bottom: 35%;
+    left: 10.5%;
+    z-index: 999;
+    animation: none;
+    animation-duration: none;
+    animation-fill-mode: none;
+
+}
+
+@keyframes fdin {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#bgss {
+    position: fixed;
+    display: none;
+    bottom: -0.5%;
+    opacity: 0.8;
+    z-index: 998;
+    
+}
+
+
+
+#txtbox {
+    position: absolute;
+    height:50vw;
+    left: 20%;
+    bottom: 12.3%;
+    width: 80vw;
+    background: rgb(13, 20, 59);
+    margin-top:-50vw;
+    place-self: center;
+    opacity: 0.85;
+    margin-top: -38vw;
+}
+
+
 
 }
