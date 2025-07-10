@@ -11,7 +11,7 @@ html, body{
 #logo {
     position: relative;
     padding-top:15% ;
-    width: 100%;
+    width: 10%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -88,12 +88,14 @@ html, body{
 
 #logo {
     position: relative;
-    margin-top: 35%;
-    padding-top:auto ;
-    width: 85%;
+    padding-top:15% ;
+    width: 20%;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    animation: none;
+    animation-duration: 0;
+    animation-fill-mode:none;
 }
 
 
