@@ -44,7 +44,7 @@ html, body{
 
 #crds {
     position: absolute;
-    height: 32vw;
+    height: 600px;
     left: 1.5vw;
     bottom: 2.35vw;
     
@@ -147,7 +147,7 @@ html, body{
 
 #crds {
     position: absolute;
-    height: 45vw;
+    height: 185px;
     left: 3vw;
     bottom: 6.5vw;
     
