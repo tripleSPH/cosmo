@@ -11,7 +11,7 @@ html, body{
 #logo {
     position: relative;
     padding-top:15% ;
-    width: 10%;
+    width: 40%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -76,7 +76,7 @@ html, body{
 
 
 
-@media  (max-width:1080px) {
+@media screen and (max-width:1024px) {
 html, body{
     margin-right: auto;
     margin-left: auto;
@@ -88,14 +88,12 @@ html, body{
 
 #logo {
     position: relative;
-    padding-top:15% ;
-    width: 20%;
+    margin-top: 35%;
+    padding-top:auto ;
+    width: 85%;
     display: block;
     margin-right: auto;
     margin-left: auto;
-    animation: none;
-    animation-duration: 0;
-    animation-fill-mode:none;
 }
 
 
@@ -123,7 +121,7 @@ html, body{
 #loading {
     position: fixed;
     padding: 0;
-    left: 40%;
+    left: 1%;
     display: none;
     animation:spin 1s infinite  ;
 }
