@@ -1,3 +1,4 @@
+
 html, body{
     margin-right: auto;
     margin-left: auto;
@@ -10,9 +11,9 @@ html, body{
 
 #logo {
     position: relative;
-    padding-top:1vw ;
-    width: 10vw;
-    margin-left: 1vw;
+    padding-top:1% ;
+    width: 10%;
+    margin-left: 1%;
     display: block;
     animation: none;
     animation-duration: 0;
@@ -20,10 +21,10 @@ html, body{
 }
 
 #fom {
+  position: absolute;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 5vw;
+  left: 59.5%;
+  top: 60%;
 }
 
 
@@ -40,20 +41,14 @@ html, body{
   }*/
 
 
-#btn2 {
-    margin-top: -40.5%;
-    display: none;
-    width: 40vw;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 .popup {
     display: block;
     margin-top: 3.25%;
     margin-left: 25%;
-    height: 30vw;
-    width: 60vw;
+    height: 30%;
+    width: 20%;
     align-content: center;
     text-align: center;
 
@@ -62,24 +57,23 @@ html, body{
 
 #crd{
     display: none;
-    height: 30vw;
+    width: 90%;
     margin-top: 0%;
     animation: slideleft;
     animation-duration: 3s;
     animation-fill-mode: both;
-    box-shadow: 10vw;
+    box-shadow: 10%;
 }
 
 
 #pptxt {
   display: none;
-  width: 40vw;
-  height: 30vw;
-  margin-top: -33%;
-  margin-left: 35%;
+  width: 150%;
+  height: 20%;
+  margin-top: -90%;
+  margin-left: 111%;
   font-family: Georgia;
-  font-size: 3.5vw;
-width: 30vw;
+  font-size: 50px;
   color: aliceblue;
   animation: fade;
   animation-duration: 4s;
@@ -98,13 +92,13 @@ width: 30vw;
 }
 
 @keyframes slideleft {
-  from {
-      margin-left: 10vw;
+  0% {
+      margin-left: 10%;
       opacity: 0;
       transform: rotate(0deg);
   }
-  to {
-     margin-left: 0vw;
+  100% {
+     margin-left: 0%;
      opacity: 1;
      transform: rotate(-10deg);
   }
@@ -160,28 +154,18 @@ width: 30vw;
   }
 }
 */
-#buttons {
-    display: none;
-    text-align: center;
-    margin-top: 1.5%;
-    
-}
 
 
 
-@media  (max-width:1000px) {
-html, body{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0;
+@media screen and (max-width:1024px) {
 
-}
+
 
 #logo {
     position: relative;
-    padding-top:1vw ;
-    width: 30vw;
-    margin-left: 1vw;
+    padding-top:1% ;
+    width: 30%;
+    margin-left: 1%;
     display: block;
     animation: none;
     animation-duration: 0;
@@ -200,8 +184,8 @@ html, body{
     display: block;
     margin-top: 50%;
     margin-left: 13%;
-    height: 30vw;
-    width: 60vw;
+    height: 30%;
+    width: 60%;
     align-content: center;
     text-align: center;
 
@@ -210,22 +194,22 @@ html, body{
 
 #crd{
     display: none;
-    height: 40vw;
+    height: 40%;
     margin-top: 0%;
     animation: slideleft;
     animation-duration: 3s;
     animation-fill-mode: both;
-    box-shadow: 10vw;
+    box-shadow: 10%;
 }
 
 #pptxt {
   display: none;
-  width: 45vw;
-  height: 30vw;
+  width: 45%;
+  height: 30%;
   margin-top: -50%;
   margin-left: 50%;
   font-family: Georgia;
-  font-size: 4.5vw;
+  font-size: 4.5%;
   color: aliceblue;
   animation: fade;
   animation-duration: 4s;
@@ -237,7 +221,7 @@ html, body{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20vw;
+  margin-top: 20%;
 }
 
 
