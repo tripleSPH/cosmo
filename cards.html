@@ -17,48 +17,54 @@ content="width=device-width, initial-scale=1">
     <br>
     <div class="sets">
     
-    <div class="cord">
-        <img src="cards/backcrds.png" class="crd" id="s1"   width="145vw">
-        <img src="cards/backcrds.png" class="crd" id="hyerin" width="145vw">
-        <img src="cards/jiwoofrnt.png" class="crd" id="jiwoo" width="145vw">
-        <img src="cards/backcrds.png" class="crd" id="s4"  width="145vw">
-        <img src="cards/yooyeonfrnt.png" class="crd" id="yooyeon" width="145vw">
-        <img src="cards/soominfrnt.png" class="crd" id="s6" width="145vw">
-        <img src="cards/nakyoungfrnt.png" class="crd" id="s7" width="145vw">
-        <img src="cards/yubinfrnt.png" class="crd" id="s8" width="145vw">
-    </div>
-    <div class="cord1">
-        <img src="cards/backcrds.png" class="crd"  id="s9" width="145vw" >
-        <img src="cards/dahyunfrnt.png" class="crd"  id="s10"width="145vw">
-        <img src="cards/backcrds.png" class="crd"  id="s11" width="145vw">
-        <img src="cards/yeonjifrnt.png" class="crd" id="s12" width="145vw">
-        <img src="cards/nienfrnt.png" class="crd" id="s13" width="145vw">
-        <img src="cards/sohyunfrnt.png" class="crd" id="s14" width="145vw">
-        <img src="cards/xinyufrnt.png" class="crd" id="s15" width="145vw">
-        <img src="cards/mayufrnt.png" class="crd" id="s16" width="145vw">
-    </div>
+        <img src="cards/backcrds.png" class="crd" id="seoyeon"   >
+        <img src="cards/backcrds.png" class="crd" id="hyerin" >
+        <img src="cards/jiwoofrnt.png" class="crd" id="jiwoo" >
+        <img src="cards/backcrds.png" class="crd" id="chaeyeon"  >
+        <img src="cards/yooyeonfrnt.png" class="crd" id="yooyeon" >
+        <img src="cards/soominfrnt.png" class="crd" id="soomin" >
+        <img src="cards/nakyoungfrnt.png" class="crd" id="nakyoung" >
+        <img src="cards/yubinfrnt.png" class="crd" id="yubin" >
+        <img src="cards/backcrds.png" class="crd"  id="kaede"  >
+        <img src="cards/dahyunfrnt.png" class="crd"  id="dahyun">
+        <img src="cards/backcrds.png" class="crd"  id="kotone" >
+        <img src="cards/yeonjifrnt.png" class="crd" id="yeonji" >
+        <img src="cards/nienfrnt.png" class="crd" id="nien" >
+        <img src="cards/sohyunfrnt.png" class="crd" id="sohyun">
+        <img src="cards/xinyufrnt.png" class="crd" id="xinyu" >
+        <img src="cards/mayufrnt.png" class="crd" id="mayu" >
+        <img src="cards/backcrds.png" class="crd" id="lynn" >
+        <img src="cards/joobinfrnt.png" class="crd" id="joobin" >
+        <img src="cards/backcrds.png" class="crd"  id="hayeon" >
+        <img src="cards/backcrds.png" class="crd"  id="shion">
+        <img src="cards/backcrds.png" class="crd"  id="chaewon" >
+        <img src="cards/backcrds.png" class="crd"  id="sullin" >
+        <img src="cards/backcrds.png" class="crd"  id="seoah" >
+        <img src="cards/jiyeonfrnt.png" class="crd" id="jiyeon" >
 
-    <div class="cord2">
-        <img src="cards/backcrds.png" class="crd" id="s17" width="145vw">
-        <img src="cards/joobinfrnt.png" class="crd" id="s18" width="145vw">
-        <img src="cards/backcrds.png" class="crd"  id="s19" width="145vw">
-        <img src="cards/backcrds.png" class="crd"  id="s20" width="145vw">
-        <img src="cards/backcrds.png" class="crd"  id="s21" width="145vw">
-        <img src="cards/backcrds.png" class="crd"  id="s22" width="145vw">
-        <img src="cards/backcrds.png" class="crd"  id="s23" width="145vw">
-        <img src="cards/jiyeonfrnt.png" class="crd" id="s24" width="145vw">
-    </div>
     </div>
     
 
     <div id="popup">
         <p id="txtbox"></p>
+        
         <img id="crds">
     </div>
+    <div id="bgss">
+        <img src="blackbg.png" onclick="hide()">
+    </div>
+   
 
 
        
     <script>
+
+            function hide (){
+                var pops = document.getElementById('popup');
+                var blk = document.getElementById('bgss');
+                pops.style.display = 'none'
+                blk.style.display = 'none'
+            }
 
             fetch('data.json')
             .then (response => response.json())
@@ -74,20 +80,26 @@ content="width=device-width, initial-scale=1">
             {
                     var cards = document.querySelector('#crds');
                     var pops = document.getElementById('popup');
+                    var blk = document.getElementById('bgss');
                     const paps = document.querySelector('#popup');
                     const crd = document.querySelector('.crd');
                     var ids = document.querySelector('.crd').id;
                     var crl = e.target.id
                     
                     
-                    if(String(e.target.class) = 'crd'){
+                    if(e.target.class = 'crd'){
                         document.getElementById('crds').src = "/cards/" + data[crl].card;
-
+    
                         pops.style.display = 'block'
+                        blk.style.display = 'block'
+                        pops.style.animation = 'fdin'
+                        pops.style.animationDuration = '0.3s'
+                        pops.style.animationFillMode = 'both'
+                         
                     }
-                    else {
-                        
-                    }
+
+                    
+                    
             }
 
               
