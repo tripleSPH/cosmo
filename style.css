@@ -90,7 +90,7 @@ html, body{
     position: relative;
     margin-top: 35%;
     padding-top:auto ;
-    width: 70vw;
+    width: 85vw;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -105,25 +105,23 @@ html, body{
 #btn1 {
     margin-top: 0%;
     display: block;
-    width: 46vw;
+    width: 85vw;
     margin-right: auto;
     margin-left: auto;
     transition: 0.3s;
 
 }
 
-#btn1:hover {
-  width: 60vw;
-}
+
 
 #load{
-  width: 10vw;
+  width: 17vw;
 }
 
 #loading {
     position: fixed;
     padding: 0;
-    left: 44.5%;
+    left: 40%;
     display: none;
     animation:spin 1s infinite  ;
 }
