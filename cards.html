@@ -48,7 +48,7 @@ content="width=device-width, initial-scale=1">
     <div id="popup">
         <p id="txtbox"></p>
         
-        <img id="crds">
+        <img src=''id="crds">
     </div>
     <div id="bgss">
         <img src="blackbg.png" onclick="hide()">
@@ -88,7 +88,7 @@ content="width=device-width, initial-scale=1">
                     
                     
                     if(e.target.class = 'crd'){
-                        document.getElementById('crds').src = "/cards/" + data[crl].card;
+                        document.getElementById('crds').src = "./cards/" + data[crl].card;
     
                         pops.style.display = 'block'
                         blk.style.display = 'block'
