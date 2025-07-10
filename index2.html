@@ -4,7 +4,7 @@
 <meta name="viewport" 
 content="width=device-width, initial-scale=1">
 <title>COSMO: DESSSTINY</title>
-<link rel="stylesheet" href="style2.css"/>
+<link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@ content="width=device-width, initial-scale=1">
         <form action="cards.html">
     <input id="fom" type="submit" value="Go to Gallery" />
 </form>
-<p id=test></p>
+
        <!-- <div class="retry">
             <input type="image" src="btn1.png" onclick="location.reload();" alt="Submit"
         id="btn2">
@@ -83,8 +83,8 @@ content="width=device-width, initial-scale=1">
                 console.log(data)
                 
                 setTimeout(()=>{
-                    //let x = cards/" + data[memb].card;//
-                    document.getElementById('crd').src = window.location='sohy.png';
+                    alert(data[memb].card)
+                    document.getElementById('crd').src = "cards/" + data[memb].card;
                     //text.innerHTML = "cards/" + memb + "frnt.png";//
                         crd.style.display = 'block'
                         flip.style.display = 'block'
