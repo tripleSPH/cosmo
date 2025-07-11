@@ -34,6 +34,7 @@ html, body{
     padding: 0.5vw;
     transition: 0.3s;
     width: 143px;
+    image-rendering: auto;
 
 }
 
@@ -136,6 +137,7 @@ html, body{
     padding: 0.5vw;
     transition: 0.3s; 
     width: 55px;
+    image-rendering: auto;
 
 
 }
