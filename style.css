@@ -106,15 +106,16 @@ body{
 
 #load{
   display: block;
-  position: relative;
   width: 13%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #loading {
-
-    padding: 0;
+  
+    position: fixed;
+    left: 19%;
+    right: 19%;
     display: none;
     animation:spin 1s infinite  ;
 }
