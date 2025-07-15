@@ -3,30 +3,31 @@
 <head>
 <meta name="viewport" 
 content="width=device-width, initial-scale=1">
+<meta http-equiv='cache-control' content='no-cache'> 
+<meta http-equiv='expires' content='0'> 
+<meta http-equiv='pragma' content='no-cache'>
 <title>COSMO: DESSSTINY</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
-    <div class="logos">
+    
+        <img src="cosmologost.png" alt="" class="logos" id="logo">
 
-    <img src="cosmologost.png" alt="cosmologo" id="logo">
-  
-    <input type="image" src="btn.png" onclick="start()" alt="Submit"
+        
+            <input type="image" src="btn.png" onclick="start()" alt="Submit"
         id="btn1">
 
+
+    <div id="loading">
+            <img src="load.png" alt="loading" id="load" on>
     </div>
+   
     
-
-
-    <div class="intro">
+       
         
-        <div id="loading">
-          <img src="load.png" alt="loading" id="load" on>
-        </div>
-        
-    </div>
+ 
     
    <!--<br>
         <div class="popup">
@@ -60,7 +61,7 @@ content="width=device-width, initial-scale=1">
         var lets1 = document.getElementById('btn2');
         var bout = document.getElementById('buttons');
 
-
+    
 
         was.style.display = 'block'
         lets.style.display = 'none'
