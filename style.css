@@ -1,65 +1,53 @@
-html, body{
-    margin-right: auto;
-    margin-left: auto;
+@media screen and (min-width:600px) {
+
+body{
+    margin: 0 auto;
     background-image: url(bgs.png);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-#logo {
-    position: relative;
-    padding-top:15% ;
-    width: 40%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    animation: none;
-    animation-duration: 0;
-    animation-fill-mode:none;
-}
-
-
-.intro{
     
-    display: block;
-    text-align: center;
 }
 
-#btn1 {
-    margin-top: 0%;
-    display: block;
-    width: 45%;
-    margin-right: auto;
-    margin-left: auto;
-    transition: 0.3s;
+.logos{
+  display: block;
+  width: 50vw;
+  margin-top: 12.5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.container1 {
+  border: 5px solid;
+}
+
+#btn1{
+  position: relative;
+  display: block;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
 }
 
 #btn1:hover {
-  width: 50vw;
+  width: 60vw;
 }
 
-
-
-#btn2 {
-    margin-top: -40.5%;
-    display: none;
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-
-}
 
 #load{
+  display: block;
   width: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #loading {
+  
     position: fixed;
-    padding: 0;
-    left: 23%;
+    left: 19%;
+    right: 19%;
     display: none;
     animation:spin 1s infinite  ;
 }
@@ -74,54 +62,59 @@ html, body{
     } 
   }
 
-
-
-@media screen and (max-width:1024px) {
-html, body{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0;
-
 }
 
 
 
-#logo {
-    position: relative;
-    margin-top: 35%;
-    padding-top:auto ;
-    width: 85%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+
+@media screen and (max-width:599px) {
+body{
+    margin: 0 auto;
+    background-image: url(bgs.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
-
-.intro{
-    display: block;
-    text-align: center;
+.logos{
+  display: block;
+  width: 90vw;
+  margin-top: 50vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#btn1 {
-    margin-top: 0%;
-    display: block;
-    width: 85%;
-    margin-right: auto;
-    margin-left: auto;
-    transition: 0.3s;
-
+.container1 {
+  border: 5px solid;
 }
 
+#btn1{
+  position: relative;
+  display: block;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+}
+
+#btn1:hover {
+  width: 100vw;
+}
 
 
 #load{
-  width: 17%;
+  display: block;
+  position: relative;
+  width: 13%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #loading {
-    position: fixed;
+
     padding: 0;
-    left: 1%;
     display: none;
     animation:spin 1s infinite  ;
 }
@@ -136,5 +129,4 @@ html, body{
     } 
   }
 
-  
 }
