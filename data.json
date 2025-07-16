@@ -2,67 +2,80 @@
 {
     "jiwoo": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "jiwoofrnt.png"
+        "card": "jiwoofrnt.png",
+        "cardbck": "jiwoobck.png"
     },
 
     "yooyeon": {
         "qty":"We are bound to make mistakes",
-        "card": "yooyeonfrnt.png"
+        "card": "yooyeonfrnt.png",
+        "cardbck": "yooyeonbck.png"
     },
 
     "soomin": {
         "qty":"You'll spark bright in a space you'll eventually find",
-        "card": "soominfrnt.png"
+        "card": "soominfrnt.png",
+        "cardbck": "soominbck.png"
     },
 
     "nakyoung": {
         "qty":"Let every obstacle feed your flame",
-        "card": "nakyoungfrnt.png"
+        "card": "nakyoungfrnt.png",
+        "cardbck": "nakyoungbck.png"
     },
 
     "yubin": {
         "qty":"'Hindi na ako ang bias ni B3ng'",
-        "card": "yubinfrnt.png"
+        "card": "yubinfrnt.png",
+        "cardbck": "yubinbck.png"
     },
 
     "dahyun": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "dahyunfrnt.png"
+        "card": "dahyunfrnt.png",
+        "cardbck": "dahyunbck.png"
     },
 
     "yeonji": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "yeonjifrnt.png"
+        "card": "yeonjifrnt.png",
+        "cardbck": "yeonjibck.png"
     },
 
     "nien": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "nienfrnt.png"
+        "card": "nienfrnt.png",
+        "cardbck": "nienbck.png"
     },
 
     "sohyun": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "sohyunfrnt.png"
+        "card": "sohyunfrnt.png",
+        "cardbck": "sohyunbck.png"
     },
 
     "xinyu": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "xinyufrnt.png"
+        "card": "xinyufrnt.png",
+        "cardbck": "xinyubck.png"
     },
 
     "mayu": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "mayufrnt.png"
+        "card": "mayufrnt.png",
+        "cardbck": "mayubck.png"
     },
 
     "joobin": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "joobinfrnt.png"
+        "card": "joobinfrnt.png",
+        "cardbck": "joobinbck.png"
     },
 
     "jiyeon": {
         "qty":"To face one's ghost, vitors even the greatest demons",
-        "card": "yooyeonfrnt.png"
+        "card": "yooyeonfrnt.png",
+        "cardbck": "jiyeonbck.png"
     }
 }
 
