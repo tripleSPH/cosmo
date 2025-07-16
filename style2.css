@@ -1,4 +1,4 @@
-
+@media screen and (min-width:600px) {
 html, body{
     margin-right: auto;
     margin-left: auto;
@@ -156,75 +156,165 @@ html, body{
 */
 
 
-
-@media screen and (max-width:1024px) {
-
-
-
-#logo {
-    position: relative;
-    padding-top:1% ;
-    width: 30%;
-    margin-left: 1%;
-    display: block;
-    animation: none;
-    animation-duration: 0;
-    animation-fill-mode:none;
 }
 
 
-.intro{
-    display: block;
-    text-align: center;
+@media screen and (max-width:599px) {
+  body{
+    margin: 0 auto;
+    background-image: url(bgs2.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
-
+.logos{
+  display: block;
+  width: 30vw;
+  margin-left: 3.5vw;
+  margin-top: 2.5vw;
+}
 
 .popup {
+    
     display: block;
-    margin-top: 50%;
-    margin-left: 13%;
-    height: 30%;
-    width: 60%;
-    align-content: center;
-    text-align: center;
-
-
+    position: relative;
+    height: 100vw;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
+
+#suki{
+    animation: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+.cardcontainer{
+  margin-top: 10vw;
+}
+
+#crdbck{
+    margin-left: 26.25vw;
+    background-size: cover;
+    position: absolute;
+    height:60vw;
+    width: 37.5vw;
+    animation: back;
+    animation-delay: 3.4s;
+    animation-duration: 1.3s;
+    animation-fill-mode: both;
+    z-index: 2;
+}
+
 
 #crd{
-    display: none;
-    width: 48%;
-    margin-top: 0%;
-    animation: slideleft;
-    animation-duration: 3s;
+    z-index: 1;
+    margin-left: 26.25vw;
+    background-size: cover;
+    position: absolute;
+    height:60vw;
+    width: 37.5vw;
+    animation: front;
+    animation-delay: 3.4s;
+    animation-duration: 1.3s;
     animation-fill-mode: both;
-    box-shadow: 10%;
+    
+    
 }
 
-#pptxt {
+#pptxt{
   display: none;
-  width: 60%;
-  height: 30%;
-  margin-top: -50%;
-  margin-left: 60%;
-  font-family: Georgia;
-  font-size: 16px;
   color: aliceblue;
-  animation: fade;
-  animation-duration: 4s;
-  animation-fill-mode: forwards;
-  
-}
-
-#fom {
-  font-size: 7px;
   position: absolute;
   display: block;
-  left: 60%;
-  top: 57%;
+  font-size: 7vw;
+  margin-top: 70vw;
+  justify-self: center;
+  text-align: center;
+  animation: fade;
+  animation-duration: 4.5s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 
+#fom{
+  display: none;
+  position: absolute;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  opacity: 0.5;
+}
+
+#fom:hover{
+  opacity: 1;
+}
+
+
+
+
+@keyframes back {
+0%{
+    margin-left: 26.25vw;
+    opacity: 1;
+}
+50%{
+    margin-left: 26.25vw;
+    
+}
+
+50%{
+    margin-left: 55vw;
+    transform: rotate(5deg);
+}
+
+100%{
+    margin-left: 30vw;
+    transform: rotate(5deg);
+}
+    
+}     
+
+
+@keyframes front {
+    0% {
+      margin-left: 26.25vw;
+    }
+    50% {
+      margin-left:2vw;
+      z-index: 1;
+    }
+    100% {
+      margin-left: 20vw;
+      transform: rotate(-10deg);
+      z-index: 3;
+    }
+   
+    }
+
+
+@keyframes rotfrnt {
+    to{
+      transform: rotate(-10deg);
+      margin-left: 20vw;
+    }
+
+}
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+     opacity: 1;
+  }
+}
 
 
 }
