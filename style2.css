@@ -1,3 +1,4 @@
+
 @media screen and (min-width:600px) {
 body{
     margin: 0 auto;
@@ -59,7 +60,6 @@ body{
     margin-left: 26.25vw;
     background-size: cover;
     position: absolute;
-
     height:25vw;
     width: 15.625vw;
     animation: front;
@@ -74,7 +74,7 @@ body{
   display: none;
   color: aliceblue;
   position: absolute;
-  width: 50vw;
+  width: 40vw;
   display: block;
   font-size: 3vw;
   margin-top: 5vw;
@@ -91,7 +91,7 @@ body{
   display: none;
   position: absolute;
   width: 40vw;
-  margin-top: -20vw;
+  margin-top: -15vw;
   margin-left: 42.7vw;
   margin-right: 10vw;
   opacity: 0.5;
@@ -161,7 +161,6 @@ body{
 }
 
 }
-
 
 @media screen and (max-width:599px) {
   body{
@@ -253,6 +252,7 @@ body{
   width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-top: 6.5vw;
   opacity: 0.5;
 }
 
