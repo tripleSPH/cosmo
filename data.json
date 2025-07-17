@@ -1,79 +1,79 @@
 
 {
     "jiwoo": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"A sound soul dwells within a sound mind and a sound body.",
         "card": "jiwoofrnt.png",
         "cardbck": "jiwoobck.png"
     },
 
     "yooyeon": {
-        "qty":"We are bound to make mistakes",
+        "qty":"To chase perfection is a noble call, to believe it exists is delusion.",
         "card": "yooyeonfrnt.png",
         "cardbck": "yooyeonbck.png"
     },
 
     "soomin": {
-        "qty":"You'll spark bright in a space you'll eventually find",
+        "qty":"Everything is but a speck of dust in the vast universe. Free yourself of trivial troubles.",
         "card": "soominfrnt.png",
         "cardbck": "soominbck.png"
     },
 
     "nakyoung": {
-        "qty":"Let every obstacle feed your flame",
+        "qty":"Let your spirit burn like fire and be a beacon to those who wish to be ignited.",
         "card": "nakyoungfrnt.png",
         "cardbck": "nakyoungbck.png"
     },
 
     "yubin": {
-        "qty":"'Hindi na ako ang bias ni B3ng'",
+        "qty":"In times of tremor, be still and thaw the wisdom frozen deep inside your mind.",
         "card": "yubinfrnt.png",
         "cardbck": "yubinbck.png"
     },
 
     "dahyun": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"Perseverance transforms failure into strength to take a step closer to victory.",
         "card": "dahyunfrnt.png",
         "cardbck": "dahyunbck.png"
     },
 
     "yeonji": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"Become an ocean that grows more fearsome as the storm arrives.",
         "card": "yeonjifrnt.png",
         "cardbck": "yeonjibck.png"
     },
 
     "nien": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"Your life is a canvas, every moment a stroke of a brush, and what you make of it a picture for everyone to see.",
         "card": "nienfrnt.png",
         "cardbck": "nienbck.png"
     },
 
     "sohyun": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"Shadows exist only because there is light. Your adversity is a sign of the fortune ahead.",
         "card": "sohyunfrnt.png",
         "cardbck": "sohyunbck.png"
     },
 
     "xinyu": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"In your soul lies a dragon yearning to reach the heavens, striving for something beyond greatness.",
         "card": "xinyufrnt.png",
         "cardbck": "xinyubck.png"
     },
 
     "mayu": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"Sing your song and move to your beat. Everyone has their own kind or music.",
         "card": "mayufrnt.png",
         "cardbck": "mayubck.png"
     },
 
     "joobin": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"The weight of the world is not yours to carry. It is shared among those who wish to lighten its load.",
         "card": "joobinfrnt.png",
         "cardbck": "joobinbck.png"
     },
 
     "jiyeon": {
-        "qty":"To face one's ghost, vitors even the greatest demons",
+        "qty":"Hope is lost once you give up searching.",
         "card": "yooyeonfrnt.png",
         "cardbck": "jiyeonbck.png"
     }
