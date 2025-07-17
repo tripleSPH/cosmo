@@ -112,34 +112,35 @@ html, body{
 }
 
 
-@media screen and (max-width:1024px) {
-#logo {
-    position: relative;
-    padding-top:1vw ;
-    width: 10vw;
-    margin-left: 4vw;
-    display: block;
- 
+@media screen and (max-width:599px) {
+  body{
+    margin: 0 auto;
+    background-image: url(bgs2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
 }
 
-.sets {
-    padding-left: 14.5%;
+.logos{
+  display: block;
+  width: 30vw;
+  margin-left: 3.5vw;
+  margin-top: 2.5vw;
 }
 
-.hide {
-    display: none;
+.sets{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5vw;
 }
-
-
 
 .crd {
     place-content: center;
     padding: 0.5vw;
     transition: 0.3s; 
-    width: 55px;
-    image-rendering: auto;
-
-
+    width: 21vw;
 }
 
 .crd:hover {
@@ -147,25 +148,65 @@ html, body{
     cursor: pointer;
 }
 
+
+
 #crds {
-    position: absolute;
-    height: 178px;
-    left: 3vw;
-    bottom: 6.5vw;
+    position: fixed;
+    width: 40vw;
+    bottom: 90vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    z-index: 3;
     
     
 }
 
-#popup {
+#bgss {
+    position: fixed;
+    display: none;
+    bottom: -0.6%;
+    opacity: 0.8;
+    z-index: 1;
+    
+}
+
+#qty, #txtbox {
+    animation: fdin;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    z-index: 1;
+}
+
+#popup{
+    display: none;
+}
+
+#txtbox {
     display: none;
     position: fixed;
-    bottom: 35%;
-    left: 10.5%;
-    z-index: 999;
-    animation: none;
-    animation-duration: none;
-    animation-fill-mode: none;
+    width: 80vw;
+    height: 120vw;
+    bottom: 35vw;
+    left: 10vw;
+    right: 10vw;
+    background: rgb(13, 20, 59);
+    opacity: 0.85;
+    z-index: 2;
+    
+    
+}
 
+#qty{
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 68vw;
+    position: fixed;
+    left: 15vw;
+    right: 15vw;
+    font-size: 5vw;
+    width: 70vw;
+    color: white;
+    text-align: center;
+    z-index: 3;
 }
 
 @keyframes fdin {
@@ -176,31 +217,4 @@ html, body{
         opacity: 1;
     }
 }
-
-#bgss {
-    position: fixed;
-    display: none;
-    bottom: -0.5%;
-    opacity: 0.8;
-    z-index: 998;
-    
-}
-
-
-
-#txtbox {
-    position: absolute;
-    height:50vw;
-    left: 20%;
-    bottom: 12.3%;
-    width: 80vw;
-    background: rgb(13, 20, 59);
-    margin-top:-50vw;
-    place-self: center;
-    opacity: 0.85;
-    margin-top: -38vw;
-}
-
-
-
 }
