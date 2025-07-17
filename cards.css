@@ -1,3 +1,4 @@
+@media screen and (min-width:600px) {
 html, body{
     margin-right: auto;
     margin-left: auto;
@@ -111,7 +112,7 @@ html, body{
     margin-top: -38vw;
 }
 
-
+}
 @media screen and (max-width:599px) {
   body{
     margin: 0 auto;
