@@ -187,7 +187,7 @@ html, body{
     position: fixed;
     width: 80vw;
     height: 120vw;
-    bottom: 26vw;
+    bottom: 37vw;
     left: 10vw;
     right: 10vw;
     background: rgb(13, 20, 59);
@@ -199,7 +199,7 @@ html, body{
 
 #qty{
     font-family: 'Times New Roman', Times, serif;
-    bottom: 68vw;
+    bottom: 60vw;
     position: fixed;
     left: 15vw;
     right: 15vw;
