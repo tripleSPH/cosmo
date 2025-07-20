@@ -236,10 +236,10 @@ body{
 }
 
 #tsph{
-  position: absolute;
+  position: fixed;
   width: 20vw;
   margin-left: 76vw;
-  bottom:179vw;
+  bottom:170vw;
   
 }
 
@@ -388,7 +388,7 @@ body{
   background: black;
   bottom: -2vw;
   width: 100vw;
-  height: 35vw;
+  height: 26vw;
   z-index: 1;
   opacity: 0.6;
   filter: blur(8px);
@@ -398,7 +398,7 @@ body{
 
 @keyframes back {
 0%{
-    margin-left: 0vw;
+    margin-left: -2.5vw;
     opacity: 1;
 }
 
@@ -422,7 +422,7 @@ body{
 
 @keyframes front {
     0% {
-      margin-left: 0vw;
+      margin-left: -2.5vw;
     }
     
     50% {
