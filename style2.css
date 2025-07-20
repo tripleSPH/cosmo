@@ -327,7 +327,7 @@ body{
   position: fixed;
   
   width: 40vw;
-  top: 158vw;
+  top: 160vw;
   left: 30vw;
   right: 0;
   cursor: pointer;
@@ -347,7 +347,7 @@ body{
   position: fixed;
   
   width: 13vw;
-  top: 158vw;
+  top: 160vw;
   left: 14vw;
   right: 0;
   cursor: pointer;
@@ -367,7 +367,7 @@ body{
   position: fixed;
   
   width: 13vw;
-  top: 158vw;
+  top: 160vw;
   left: 73vw;
   right: 0;
   cursor: pointer;
@@ -383,16 +383,7 @@ body{
   scale: 1.1;
 }
 
-#blcks {
-  position: fixed;
-  background: black;
-  bottom: -2vw;
-  width: 100vw;
-  height: 26vw;
-  z-index: 1;
-  opacity: 0.6;
-  filter: blur(8px);
-}
+
 
 
 
