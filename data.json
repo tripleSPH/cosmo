@@ -1,79 +1,91 @@
 
 {
+    "seoyeon": {
+        "qty":"Fate is not<br>a path to be followed<br>but a road to be built.",
+        "card": "seoyeonfrnt.png",
+        "cardbck": "seoyeonbck.png"
+    },
+
     "jiwoo": {
-        "qty":"A sound soul dwells within a sound mind and a sound body.",
+        "qty":"A sound soul<br>dwells within a sound mind<br>and a sound body.",
         "card": "jiwoofrnt.png",
         "cardbck": "jiwoobck.png"
     },
 
     "yooyeon": {
-        "qty":"To chase perfection is a noble call, to believe it exists is delusion.",
+        "qty":"To chase perfection<br>is a noble call,<br>to believe it exists<br>is delusion.",
         "card": "yooyeonfrnt.png",
         "cardbck": "yooyeonbck.png"
     },
 
     "soomin": {
-        "qty":"Everything is but a speck of dust in the vast universe. Free yourself of trivial troubles.",
+        "qty":"Everything<br>is but a speck of dust<br>in the vast universe.<br>Free yourself<br>of trivial troubles.",
         "card": "soominfrnt.png",
         "cardbck": "soominbck.png"
     },
 
     "nakyoung": {
-        "qty":"Let your spirit burn like fire and be a beacon to those who wish to be ignited.",
+        "qty":"Let your spirit<br>burn like fire<br>and be a beacon to those<br>who wish to be ignited.",
         "card": "nakyoungfrnt.png",
         "cardbck": "nakyoungbck.png"
     },
 
     "yubin": {
-        "qty":"In times of tremor, be still and thaw the wisdom frozen deep inside your mind.",
+        "qty":"In times of tremor<br>be still<br>and thaw the wisdom<br>frozen deep inside your mind.",
         "card": "yubinfrnt.png",
         "cardbck": "yubinbck.png"
     },
 
     "dahyun": {
-        "qty":"Perseverance transforms failure into strength to take a step closer to victory.",
+        "qty":"Perseverance<br>transforms failure<br>into strength to take a step<br>closer to victory.",
         "card": "dahyunfrnt.png",
         "cardbck": "dahyunbck.png"
     },
 
     "yeonji": {
-        "qty":"Become an ocean that grows more fearsome as the storm arrives.",
+        "qty":"Become an ocean<br>that grows more fearsome<br>as the storm arrives.",
         "card": "yeonjifrnt.png",
         "cardbck": "yeonjibck.png"
     },
 
     "nien": {
-        "qty":"Your life is a canvas, every moment a stroke of a brush, and what you make of it a picture for everyone to see.",
+        "qty":"Your life is a canvas,<br>every moment a stroke of a brush,<br>and what you make of it<br>a picture for everyone to see.",
         "card": "nienfrnt.png",
         "cardbck": "nienbck.png"
     },
 
     "sohyun": {
-        "qty":"Shadows exist only because there is light. Your adversity is a sign of the fortune ahead.",
+        "qty":"Shadows exist<br>only because there is light.<br>Your adversity is a sign,br>of the fortune ahead.",
         "card": "sohyunfrnt.png",
         "cardbck": "sohyunbck.png"
     },
 
     "xinyu": {
-        "qty":"In your soul lies a dragon yearning to reach the heavens, striving for something beyond greatness.",
+        "qty":"In your soul lies a dragon<br>yearning to reach the heavens,<br>striving for something beyond greatness.",
         "card": "xinyufrnt.png",
         "cardbck": "xinyubck.png"
     },
 
     "mayu": {
-        "qty":"Sing your song and move to your beat. Everyone has their own kind or music.",
+        "qty":"Sing your song<br>and move to your beat.<br>Everyone has their own kind of music.",
         "card": "mayufrnt.png",
         "cardbck": "mayubck.png"
     },
 
     "joobin": {
-        "qty":"The weight of the world is not yours to carry. It is shared among those who wish to lighten its load.",
+        "qty":"The weight of the world<br>is not yours to carry.<br>It is shared among those<br>who wish to lighten its load.",
         "card": "joobinfrnt.png",
         "cardbck": "joobinbck.png"
     },
 
+    "hayeon": {
+        "qty":"Let your vision<br>lead you to wisdom,<br>not despair..",
+        "card": "hayeonfrnt.png",
+        "cardbck": "hayeonbck.png"
+    },
+
     "jiyeon": {
-        "qty":"Hope is lost once you give up searching.",
+        "qty":"Hope is lost<br>once you give up searching.",
         "card": "jiyeonfrnt.png",
         "cardbck": "jiyeonbck.png"
     }
