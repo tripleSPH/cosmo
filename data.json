@@ -55,7 +55,7 @@
     },
 
     "sohyun": {
-        "qty":"Shadows exist<br>only because there is light.<br>Your adversity is a sign,br>of the fortune ahead.",
+        "qty":"Shadows exist<br>only because there is light.<br>Your adversity is a sign,<br>of the fortune ahead.",
         "card": "sohyunfrnt.png",
         "cardbck": "sohyunbck.png"
     },
