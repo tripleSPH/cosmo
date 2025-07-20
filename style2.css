@@ -35,8 +35,7 @@ body{
     width: 50vw;
     margin-left: auto;
     margin-right: auto;
-    
-    
+
 }
 
 #suki{
@@ -98,7 +97,7 @@ body{
 
 
 #retry {
-  position: fixed;
+
   display: block;
   height: 4.5vw;
   width: 27vw;
@@ -115,7 +114,7 @@ body{
 }
 
 #gallery {
-  position: fixed;
+
   display: block;
   height: 4.5vw;
   width: 9vw; 
@@ -132,7 +131,6 @@ body{
 }
 
 #about {
-  position: fixed;
   display: block;
   height: 4.5vw;
   width: 9vw;
@@ -389,11 +387,13 @@ body{
 }
 
 #bowtons{
-  padding-top: 10vw;
+  position: absolute;
+  padding-top: 4vw;
   width: 80vw;
   height: 20vw;
-  margin-left:10vw;
-  margin-top: 20.5vw;
+  margin-left:20vw;
+  margin-top: 10vw;
+  margin-bottom: 20vw;
   
 
 }
