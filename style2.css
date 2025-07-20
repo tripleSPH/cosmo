@@ -99,7 +99,7 @@ body{
   display: block;
   height: 4.5vw;
   width: 27vw;
-  margin-top:-4vw;
+  margin-top:6vw;
   margin-left: 36.5vw;
   cursor: pointer;
   transition: 0.2s;
@@ -117,7 +117,7 @@ body{
   display: block;
   height: 4.5vw;
   width: 9vw; 
-  margin-top:-4vw;
+  margin-top:6vw;
   margin-left: 25.5vw;
   cursor: pointer;
   transition: 0.2s;
@@ -135,7 +135,7 @@ body{
   display: block;
   height: 4.5vw;
   width: 9vw;
-  margin-top:-4vw;
+  margin-top:6vw;
   margin-left:  65.5vw;
   cursor: pointer;
   transition: 0.2s;
@@ -149,7 +149,6 @@ body{
 }
 
 #bowtons{
-  align-content: center;
   position:fixed;
   width: 60vw;
   height: 20vw;
