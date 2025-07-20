@@ -32,25 +32,32 @@ content="width=device-width, initial-scale=1">
     </div>-->
     
         <img src="cosmologost.png" onclick="window.location='index.html';" alt=""  class="logos" id="logos">
-    
+        <img src='tsphlogo.png' alt="" id="tsph">
     
  
         <div class="popup">
                     <div class="cardcontainer" id="suki">
-                        <img scr='' alt="" id="crdbck">
-                        <img scr='' alt="" id="crd">
+                        <img src="none" alt="" id="crdbck">
+                        <img src="none" alt="" id="crd">
                     </div>
                     
-           
-          
           <p id="pptxt"></p>
           <div id="memp">
-
           </div>
         </div>
         
-    <button id="fom" type="submit" onclick="window.location='cards.html'">Go to Gallery</button>
+    
+    <input type="image" src="retry.png" onclick="window.location='index.html';" alt="Submit"
+        id="retry">
 
+    <input type="image" src="aboutus.png" onclick="window.open('https://www.hopp.bio/triplesph', '_blank')" alt="Submit" 
+        id="about">
+
+        <input type="image" src="gallery.png" onclick="window.location='cards.html';" alt="Submit"
+        id="gallery">
+    <p id="blcks"></p>
+    
+    
 
         <!--<div class="retry">
             <input type="image" src="btn1.png" onclick="location.reload();" alt="Submit"
@@ -60,7 +67,7 @@ content="width=device-width, initial-scale=1">
             <button>VIEW COLLECTION</button>
             </div>
         </div>-->
-
+        
     <script>
         
         start()
@@ -77,7 +84,8 @@ content="width=device-width, initial-scale=1">
         var lets1 = document.getElementById('btn2');
         var bout = document.getElementById('fom');
         var back = document.getElementById('suki');
-        var mem = ["jiwoo","yooyeon", "soomin","nakyoung","yubin","dahyun", "yeonji", "nien", "sohyun", "xinyu", "mayu", "joobin"
+        var bow = document.getElementsByClassName('bowton');
+        var mem = ["seoyeon","jiwoo","yooyeon", "soomin","nakyoung","yubin","dahyun", "yeonji", "nien", "sohyun", "xinyu", "mayu", "joobin","hayeon"
           , "jiyeon"
         ]
         var mems = mem.length;
@@ -98,7 +106,7 @@ content="width=device-width, initial-scale=1">
                 
                
                     //alert(data[memb].card)
-                    document.getElementById('crd').src = "./cards/" + data[memb].card;
+                    document.getElementById('crd').src = "./cardssmall/" + data[memb].card;
                     document.getElementById('crdbck').src = "./cardsbck/" + data[memb].cardbck;
                     //text.innerHTML = "cardssmall/" + memb + "frnt.png";//
                         back.style.display = 'block'
@@ -111,17 +119,16 @@ content="width=device-width, initial-scale=1">
                     setTimeout(()=>{
             
                         document.querySelector("#pptxt").innerHTML = data[memb].qty
-                        poptext.style.display = 'block'
-                        //bout.style.display = 'block'
-                        //crd.style.animation = '2s'
+                        
+                        
 
-                    },4500)
+                    },0)
 
                     setTimeout(()=>{
                         bout.style.display = 'block'
-                        
+                        bow.style.display = 'block'
 
-                    },5000)
+                    },1000)
 
          });
        }
