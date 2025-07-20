@@ -325,7 +325,7 @@ body{
   position: fixed;
   
   width: 40vw;
-  margin-top: 17vw;
+  margin-top: 20vw;
   left: 30vw;
 
   cursor: pointer;
@@ -347,7 +347,7 @@ body{
   position: fixed;
   
   width: 13vw;
-  margin-top: 17vw;
+  margin-top: 20vw;
   left: 14vw;
 
   cursor: pointer;
@@ -367,7 +367,7 @@ body{
 
 #about {
   position: fixed;
-  margin-top: 17vw;
+  margin-top: 20vw;
   width: 13vw;
   
   left: 73vw;
