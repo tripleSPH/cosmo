@@ -126,20 +126,29 @@ html, body{
 
 .logos{
   display: block;
-  width: 30vw;
+  width: 20vw;
   margin-left: 3.5vw;
-  margin-top: 2.5vw;
+  padding-top: 2vw;
 }
+
+#tsph{
+  position: absolute;
+  width: 20vw;
+  margin-left: 76vw;
+  margin-top: -8.5vw;
+}
+
 
 .sets{
     margin-left: 15%;
     margin-right: 15%;
     padding-bottom: 5vw;
+    columns: 3;
 }
 
 .crd {
     place-content: center;
-    padding: 0.5vw;
+    padding: 1vw;
     transition: 0.3s; 
     width: 21vw;
 }
@@ -152,21 +161,23 @@ html, body{
 
 
 #crds {
+    display: block;
     position: fixed;
     width: 40vw;
-    bottom: 90vw;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-top: 4vw;
+    margin-left: 20vw;
     z-index: 3;
     
     
 }
 
 #bgss {
-    position: fixed;
     display: none;
-    bottom: -0.6%;
-    opacity: 0.8;
+    top: 0vw;
+    position: fixed;
+    height: 100vw;
+    width: 100vw;
+    opacity: 0.4;
     z-index: 1;
     
 }
@@ -180,34 +191,70 @@ html, body{
 
 #popup{
     display: none;
+    position: fixed;
+    height: 130vw;
+    width: 80vw;
+    margin-top: -280vw;
+    margin-left: 10vw;
+    z-index: 2;
 }
 
 #txtbox {
     display: none;
     position: fixed;
     width: 80vw;
-    height: 120vw;
-    bottom: 37vw;
+    height: 130vw;
+    margin-top: -1vw;
     left: 10vw;
     right: 10vw;
-    background: rgb(13, 20, 59);
-    opacity: 0.85;
+    background: rgb(0, 0, 0,80%);
+    border-radius: 5%;
     z-index: 2;
     
     
 }
 
-#qty{
-    font-family: 'Times New Roman', Times, serif;
-    bottom: 60vw;
+#mem{
+    font-family: 'helvetica';
     position: fixed;
-    left: 15vw;
-    right: 15vw;
-    font-size: 5vw;
+    font-size: 6vw;
     width: 70vw;
+    top: 85vw;
+    margin-left: 5vw;
+    height: 35vw;
     color: white;
     text-align: center;
     z-index: 3;
+    text-transform: uppercase;
+}
+
+#ttl{
+    font-family: 'helvetica';
+    position: fixed;
+    font-size: 3vw;
+    width: 70vw;
+    top: 97vw;
+    margin-left: 5vw;
+    height: 35vw;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+#qty{
+    font-family: 'helvetica';
+    position: fixed;
+    font-size: 3vw;
+    width: 70vw;
+    top: 105vw;
+    margin-left: 5vw;
+    height: 35vw;
+    color: white;
+    text-align: left;
+    z-index: 3;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 @keyframes fdin {
