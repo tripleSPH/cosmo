@@ -48,7 +48,7 @@ content="width=device-width, initial-scale=1">
 
     <div id="popup">
         <p id="txtbox"></p>
-        <img src="" id="crds">
+        <img src='' id="crds">
         <p id="mem"></p>
         <p id="ttl"></p>
         <p id="qty"></p>
@@ -94,7 +94,7 @@ content="width=device-width, initial-scale=1">
                     
                     
                     if(e.target.class = 'crd'){
-                        document.getElementById('crds').src = "/cards/" + data[crl].card;
+                        document.getElementById('crds').src = "./cards/" + data[crl].card;
                         txt.style.display = 'block'
                         pops.style.display = 'block'
                         blk.style.display = 'block'
