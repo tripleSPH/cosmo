@@ -1,11 +1,11 @@
-{
+ {  
 
     "jiwoo": {
         "qty":"A sound soul<br>dwells within a sound mind<br>and a sound body.",
         "card": "jiwoofrnt.png",
         "cardbck": "jiwoobck.png",
         "code": "s3",
-        "title": "title: Incorporeal Inspector",
+        "title": "Incorporeal Inspector",
         "lore": "Jiwoo is a newly recruited officer of the ‘Order of the Crystal Eyes’, an international organization tasked in detecting and suppressing supernatural phenomena across the globe. She is a highly disciplined and committed member of her organization, following every operation procedure by the book.<br><br>Despite her tense attitude, she has a deep respect for her job and the anomalies and spirits that she encounters.<br><br>As a new recruit, she feels a lot of anxiety about her job and often doubts her own judgement about the situations she is put in but she tries her best to uphold her honor as an agent of the Order."
     },
 
@@ -14,7 +14,7 @@
         "card": "yooyeonfrnt.png",
         "cardbck": "yooyeonbck.png",
         "code": "s5",
-        "title": "title: Formula of Perfection",
+        "title": "Formula of Perfection",
         "lore": "Yooyeon has one goal in mind, to push the boundary of human capability; the peak of human perfection. Her passion for this goal has driven her into madness, sending herself deep into the forest to avoid any and all distraction. Her extreme dedication gradually led her to unknowingly attune herself with Cosmo. With her newfound powers, she built an army of mindless bears that assist her in her goal, collecting materials for her and driving out intruders.<br><br>It is easy to see Yooyeon as flat out crazy but she stays true to her goal of progressing humanity. While pushing the limits of her experiments, she throws out all of her ideas that involve harming humans directly and indirectly although her lack of awareness for anything else often overlooks this value.<br><br>When not actively working towards her pursuit, she is a very shy and clumsy girl."
     },
 
@@ -23,7 +23,7 @@
         "card": "soominfrnt.png",
         "cardbck": "soominbck.png",
         "code": "s6",
-        "title": "title: Cosmic Singularity",
+        "title": "Cosmic Singularity",
         "lore": "Soomin is the Cosmic God representing the concept of space.<br><br>Despite her Godly existence, Soomin is filled with a constant stream of excitement and thirst for battle. She constantly seeks out areas with high concentrations of Cosmo Energy on earth in search of strong opponents to confront and release her pent up energy to.<br><br>She refuses to stop her ploy despite being pulled back to the divine realm numerous times due to the imbalances she has caused abusing her abilities."
     },
 
@@ -32,7 +32,7 @@
         "card": "nakyoungfrnt.png",
         "cardbck": "nakyoungbck.png",
         "code": "s7",
-        "title": "title: Avatar of Eternal Flame",
+        "title": "Avatar of Eternal Flame",
         "lore": "Nakyoung is a Rear Admiral of the Steelwing Kingdom’s Airship Fleet. She was born with the aspect of fire from the Cosmic God of Force. As a young trainee, she showed great ambition and enthusiasm in protecting her kingdom and its people and with her innate powers, she quickly rose through the ranks.<br><br>Standing along her is her best friend and rival Yubin. Due to her immense power, nobody in the academy can spar with her at full force except for Yubin who can match her power with her own, leading them to deepen their bond through combat.<br><br>Unforeseen circumstances led Yubin to exile herself from their kingdom which made Nakyoung resentful, losing her way and using her duties as means to escape her grief. She becomes a cold-hearted combatant dead set to bring down all of her adversaries with very little regard for her own life."
     },
 
@@ -41,7 +41,7 @@
         "card": "yubinfrnt.png",
         "cardbck": "yubinbck.png",
         "code": "s8",
-        "title": "title: Harbinger of Frost",
+        "title": "Harbinger of Frost",
         "lore": "Yubin is a former Captain of the Steelwing Kingdom’s Airship Fleet. She was born with the aspect of cold from the Cosmic God of Force. She was a very peace-loving and cheerful young trainee who tries her best to be on good terms with everyone around her.<br><br>She avoids all conflict to prevent herself from using her very dangerous powers for confrontation until she meets her match, Nakyoung. They deepened their bond through combat and both eventually ended up as high ranking officers of their own unit.<br><br>Unfortunately, due to the volatile nature of her power, she retires and exiles herself to preserve the kingdom that her best friend Nakyoung held dear. She lives secluded in the mountains fending for herself while learning how to control her deadly ability."
     },
 
@@ -50,7 +50,7 @@
         "card": "dahyunfrnt.png",
         "cardbck": "dahyunbck.png",
         "code": "s10",
-        "title": "title: Thousand Techniques",
+        "title": "Thousand Techniques",
         "lore": "Dahyun is the current long-standing champion of the Coliseum in the battle city, Aria. She is what many would consider a battle nerd. She honed her skills defeating and being defeated by many strong warriors.<br><br>She fights everyone she deems interesting regardless of whether she can beat them or not to figure out how they fight and their weaknesses and incorporate everything she learned into her own arsenal. Despite being the champion of the Coliseum, she still actively seeks out strong opponents to face and further her experience.<br><br>Outside of battle she is a very enthusiastic person who greatly enjoys celebrating in the company of her rivals and friends."
     },
 
@@ -59,7 +59,7 @@
         "card": "yeonjifrnt.png",
         "cardbck": "yeonjibck.png",
         "code": "s12",
-        "title": "title: Rampaging Waves",
+        "title": "Rampaging Waves",
         "lore": "Yeonji is the captain of the massive and powerful crew of skyfarers and ruin hunters that can threaten an entire nation, the Yellow Bill Brigade. Despite her young age, she possesses an unshakable will and absolute faith in her leadership to her more experienced and older crewmates. In turn, her crewmates also give her their utmost trust and respect, trusting their voyage as well as their lives in her care.<br><br>Yeonji has proven her worth to her crew by picking up a lot of what her mother, their former captain, left after she succumbed to a strange illness she caught in one of the ruins they explored. Yeonji is dedicated to carrying her mother’s legacy and leading her crew who were once a band of misfits towards a brighter future.<br><br>While she is not attending to her captain’s duties, she still plays around with her crewmates like a lost child inside the ship and her crewmates tag along her crazy antics as well."
     },
 
@@ -68,7 +68,7 @@
         "card": "nienfrnt.png",
         "cardbck": "nienbck.png",
         "code": "s13",
-        "title": "title: Verses of Preservation",
+        "title": "Verses of Preservation",
         "lore": "Nien is a gate guardian of the trading capital, the eastern Jīnlóng Chéng (Golden Dragon City) where the renowned Golden Dragon Cultivation Art is preserved. While trained under the Golden Dragon Cultivation, she did not pay much attention to her cultivation, instead focusing on developing her interests in Art and Poetry. Her dedication to her craft eventually blessed her an affinity towards it manifesting the power of Cosmo through her artistic works.<br><br>Due to her unique and powerful affinity, she along with two of her equally impressive friends Sohyun and Xinyu were recruited into the city’s defense force eventually rising through the ranks. Due to a malicious scheme out of their peers’ envy, the three of them were wrapped in a conspiracy which eventually led to her and Xinyu’s demotion and Sohyun’s Imprisonment.<br><br>Unlike the other two, Nien embraced her new situation completely as it allowed her more freedom to further improve on her affinity. Nien keeps a very carefree demeanor and tries her best to not get involved in most things, choosing to focus more on her craft."
     },
 
@@ -77,7 +77,7 @@
         "card": "sohyunfrnt.png",
         "cardbck": "sohyunbck.png",
         "code": "s14",
-        "title": "title: Vessel of Entropy",
+        "title": "Vessel of Entropy",
         "lore": "Sohyun is a prisoner in the trading capital, the eastern Jīnlóng Chéng (Golden Dragon City) where the renowned Golden Dragon Cultivation Art is preserved. She is born with the Cosmic God of Entropy inside her, an impartial God set to speed up the cycle of existence. Her power is an immediate threat to everyone as it is prone to letting itself loose at her slightest oversight. She trained in Golden Dragon Cultivation to help her suppress this power along with her friends Xinyu and Nien who made a vow to keep the power a secret to prevent discrimination from their peers.<br><br>Her masterful cultivation has led her along with her friends to be recruited into the city’s defense force where they easily rose through the ranks however, a malicious scheme led by their envious peers demoted her two friends and landed her in prison where she is sealed to prevent her power from manifesting. She spends her time in prison improving her grasp on her dangerous power through cultivation.<br><br>Even now as an inmate, Sohyun remains kind to everyone she encounters and does her best to prevent conflict with other hostile inmates not only to prevent her powers from being let loose but to preserve her own set of values and discipline."
     },
 
@@ -86,7 +86,7 @@
         "card": "xinyufrnt.png",
         "cardbck": "xinyubck.png",
         "code": "s15",
-        "title": "title: Golden Dragon Fist",
+        "title": "Golden Dragon Fist",
         "lore": "Xinyu is a prison warden of the trading capital, the eastern Jīnlóng Chéng (Golden Dragon City) where the renowned Golden Dragon Cultivation Art is preserved. She along with her friends Nien and Xinyu trained in Golden Dragon Cultivation. She is the most disciplined among her peers when it comes to cultivation, eventually reaching the Golden Core state, the highest attainable point of cultivation of the art; the sign of a true master.<br><br>The three friends were eventually recruited into the city’s defense force due to their immense skills quickly rising through its ranks, however, a malicious scheme led by their envious peers caused her and Nien’s demotion and the imprisonment of their friend Sohyun. She constantly blames herself and her own limitations for what happened to them, cultivating her already monstrous strength even further as a result. She often runs into Sohyun on her new appointment but avoids her due to her guilt.<br><br>Despite her people's betrayal, she is firm in her conviction of keeping the safety of her hometown. She shows a light and positive demeanor to her townsfolk but is quick to become rough to people she is not familiar with."
     },
 
@@ -95,7 +95,7 @@
         "card": "mayufrnt.png",
         "cardbck": "mayubck.png",
         "code": "s16",
-        "title": "title: Sakura Symphony",
+        "title": "Sakura Symphony",
         "lore": "Mayu is the lead musician of the Sakura Traveling Theater. She was born with a condition that allowed her to hear the flow of Cosmo. It caused her great discomfort in her younger years. The people around her were unsettled by her unusual reactions to her unique gift leading to her alienation. Only the music played by her parents brought comfort to the young child, a passion which she carried forward growing up.<br><br>She had great interest in music, learning every piece she comes across and passionately learning every instrument she can get her hands on. Her dedication to her craft eventually led her to become attuned to Cosmo through the music that she plays. Her talents piqued the interest of a travelling band of performers that recruited her enabling her to share her music to the world.<br><br>Despite being in a band, she keeps her aversion to interacting with humans even with her group. The only people she trusts are her parents. She also treasures her instruments and carries deep hatred to people who carelessly handle or damage them."
     },
 
@@ -104,17 +104,22 @@
         "card": "joobinfrnt.png",
         "cardbck": "joobinbck.png",
         "code": "s18",
-        "title": "title: Lunar Infinity",
+        "title": "Lunar Infinity",
         "lore": "Joobin is an orphan at a remote town deep in the mountains. She is born with the Cosmic God of Mass inside of her, a voracious God set to unify all of existence into itself. Unlike her, her older sister Lynn was only born with an attuned body.<br><br>When Joobin was still a toddler, her power went berserk threatening the safety of their village. Their parents, well-attuned with Cosmo, were able to save the village at the cost of their lives. The orphaned siblings have since been taken in by the village however, they became very wary of her.<br><br>Unlike her sister, only very few villagers treat her well while the majority see her as a curse, like a ticking time bomb set to destroy their little town. This treatment made her elusive and anxious around people, even to those who accept her. She only ever interacts with Lynn and often uses her to communicate her own words with others."
     },
+
 
     "jiyeon": {
         "qty":"Hope is lost<br>once you give up searching.",
         "card": "jiyeonfrnt.png",
         "cardbck": "jiyeonbck.png",
         "code": "s24",
-        "title": "title: Song of the Black Swan",
-        "lore": "Jiyeon is a multiverse traveler originating from a dead universe drained of all its Cosmo. Her home universe was discovered and eventually drained of all its Cosmo by ████████. While their universe was still intact, Jiyeon and her universe’s variant of Kotone built technology to fight against ████████, eventually matching their deployed forces. Their success would come to an end when ████████ would find and manipulate their universe’s tripleS. ████████ used their tripleS to completely erase the existence of all Jiyeons across the multiverse, potentially preventing a similar threat from occurring in the future. This attempt was fortunately thwarted when Kotone would use an experimental technology that could modify both of their Cosmo signatures. Kotone inter-changed their Cosmo signatures preventing Jiyeon from being recognized and erased, a sacrificial fate that Kotone took for herself. This made Jiyeon the only one of herself to exist in all universes. This incident led her to make a vow to travel the multiverse and prevent ████████ from destroying other universes and to take them down once and for all. As the only Jiyeon in existence, she draws in the Cosmo energy left behind by the previously existing Jiyeon of every universe she visits, growing her own power. To achieve her goal, she stealthily poses as an alien threat to every universe’s earth, deploying her and Kotone’s battle droids in search of ████████'s agents to destroy them and their deployed command ships. The danger of her situation and the strain of her self-imposed mission has made her cold-hearted and tunnel-visioned, solely focused on destroying ████████ regardless of casualties all for her vision of the greater good."
+        "title": "Song of the Black Swan",
+        "lore": "Jiyeon is a multiverse traveler originating from a dead universe drained of all its Cosmo. Her home universe was discovered and eventually drained of all its Cosmo by ██████. While their universe was still intact, Jiyeon and her universe’s variant of Kotone built technology to fight against ██████, eventually matching their deployed forces. Their success would come to an end when ██████ would find and manipulate their universe’s tripleS.<br><br>██████ used their tripleS to completely erase the existence of all Jiyeons across the multiverse, potentially preventing a similar threat from occurring in the future. This attempt was fortunately thwarted when Kotone would use an experimental technology that could modify both of their Cosmo signatures. Kotone inter-changed their Cosmo signatures preventing Jiyeon from being recognized and erased, a sacrificial fate that Kotone took for herself. This made Jiyeon the only one of herself to exist in all universes. This incident led her to make a vow to travel the multiverse and prevent ██████ from destroying other universes and to take them down once and for all.<br><br>As the only Jiyeon in existence, she draws in the Cosmo energy left behind by the previously existing Jiyeon of every universe she visits, growing her own power. To achieve her goal, she stealthily poses as an alien threat to every universe’s earth, deploying her and Kotone’s battle droids in search of ██████'s agents to destroy them and their deployed command ships.<br><br>The danger of her situation and the strain of her self-imposed mission has made her cold-hearted and tunnel-visioned, solely focused on destroying ██████ regardless of casualties all for her vision of the greater good."
+    },
+
+     "???": {
+        "title": "???",
+        "lore": "A fate yet to be revealed."
     }
 }
-
