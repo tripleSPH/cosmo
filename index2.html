@@ -30,7 +30,7 @@ content="width=device-width, initial-scale=1">
         </div>
         
     </div>-->
-    
+
         <img src="cosmologost.png" onclick="window.location='index.html';" alt=""  class="logos" id="logos">
         <img src='tsphlogo.png' alt="" id="tsph">
     
@@ -46,15 +46,16 @@ content="width=device-width, initial-scale=1">
           </div>
         </div>
         
-    
+    <div id="bowtons">
     <input type="image" src="retry.png" onclick="window.location='index.html';" alt="Submit"
         id="retry">
 
     <input type="image" src="aboutus.png" onclick="window.open('https://www.hopp.bio/triplesph', '_blank')" alt="Submit" 
         id="about">
 
-        <input type="image" src="gallery.png" onclick="window.location='cards.html';" alt="Submit"
+    <input type="image" src="gallery.png" onclick="window.location='cards.html';" alt="Submit"
         id="gallery">
+    </div>
     <p id="blcks"></p>
     
     
@@ -85,7 +86,8 @@ content="width=device-width, initial-scale=1">
         var bout = document.getElementById('fom');
         var back = document.getElementById('suki');
         var bow = document.getElementsByClassName('bowton');
-        var mem = ["jiwoo","yooyeon", "soomin","nakyoung","yubin","dahyun", "yeonji", "nien", "sohyun", "xinyu", "mayu", "joobin", "jiyeon"
+        var mem = ["jiwoo","yooyeon", "soomin","nakyoung","yubin","dahyun", "yeonji", "nien", "sohyun", "xinyu", "mayu", "joobin"
+          , "jiyeon"
         ]
         var mems = mem.length;
         var pck1 = Math.floor(Math.random()*mems);
