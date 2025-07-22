@@ -12,46 +12,49 @@ content="width=device-width, initial-scale=1">
     
     <div>
         <img src="cosmologost.png" onclick="window.location='index.html';" alt=""  class="logos" id="logos">
+        <img src='tsphlogo.png' alt="" id="tsph">
     </div>
     
     <br>
     <div class="sets">
  
-        <img src="cardssmall/backcrd.png" class="crd" id="seoyeon"   >
-        <img src="cardssmall/backcrd.png" class="crd" id="hyerin" >
-        <img src="cardssmall/jiwoofrnt.png" class="crd" id="jiwoo" >
-        <img src="cardssmall/backcrd.png" class="crd" id="chaeyeon"  >
-        <img src="cardssmall/yooyeonfrnt.png" class="crd" id="yooyeon" >
-        <img src="cardssmall/soominfrnt.png" class="crd" id="soomin" >
-        <img src="cardssmall/nakyoungfrnt.png" class="crd" id="nakyoung" >
-        <img src="cardssmall/yubinfrnt.png" class="crd" id="yubin" >
-        <img src="cardssmall/backcrd.png" class="crd"  id="kaede"  >
-        <img src="cardssmall/dahyunfrnt.png" class="crd"  id="dahyun">
-        <img src="cardssmall/backcrds.png" class="crd"  id="kotone" >
-        <img src="cardssmall/yeonjifrnt.png" class="crd" id="yeonji" >
-        <img src="cardssmall/nienfrnt.png" class="crd" id="nien" >
-        <img src="cardssmall/sohyunfrnt.png" class="crd" id="sohyun">
-        <img src="cardssmall/xinyufrnt.png" class="crd" id="xinyu" >
-        <img src="cardssmall/mayufrnt.png" class="crd" id="mayu" >
-        <img src="cardssmall/backcrds.png" class="crd" id="lynn" >
-        <img src="cardssmall/joobinfrnt.png" class="crd" id="joobin" >
-        <img src="cardssmall/backcrd.png" class="crd"  id="hayeon" >
-        <img src="cardssmall/backcrd.png" class="crd"  id="shion">
-        <img src="cardssmall/backcrd.png" class="crd"  id="chaewon" >
-        <img src="cardssmall/backcrd.png" class="crd"  id="sullin" >
-        <img src="cardssmall/backcrd.png" class="crd"  id="seoah" >
-        <img src="cardssmall/jiyeonfrnt.png" class="crd" id="jiyeon" >
+        <!--1--><img src="cardssmall/backcrd.png" class="crd" id="seoyeon"   >
+        <!--2--><img src="cardssmall/backcrd.png" class="crd" id="chaeyeon" >
+        <!--3--><img src="cardssmall/nakyoungfrnt.png" class="crd" id="nakyoung" >
+        <!--4--><img src="cardssmall/dahyunfrnt.png" class="crd" id="dahyun"  >
+        <!--5--><img src="cardssmall/nienfrnt.png" class="crd" id="nien" >
+        <!--6--><img src="cardssmall/mayufrnt.png" class="crd" id="mayu" >
+        <!--7--><img src="cardssmall/backcrd.png" class="crd" id="hayeon" >
+        <!--*8--><img src="cardssmall/backcrd.png" class="crd" id="sullin" >
+        <!--9--><img src="cardssmall/backcrd.png" class="crd"  id="hyerin"  >
+        <!--10--><img src="cardssmall/yooyeonfrnt.png" class="crd"  id="yooyeon">
+        <!--11--><img src="cardssmall/yubinfrnt.png" class="crd"  id="yubin" >
+        <!--12--><img src="cardssmall/backcrd.png" class="crd" id="kotone" >
+        <!--13--><img src="cardssmall/sohyunfrnt.png" class="crd" id="sohyun" >
+        <!--14--><img src="cardssmall/backcrd.png" class="crd" id="lynn">
+        <!--15--><img src="cardssmall/backcrd.png" class="crd" id="shion" >
+        <!--*16--><img src="cardssmall/backcrd.png" class="crd" id="seoah" >
+        <!--17--><img src="cardssmall/jiwoofrnt.png" class="crd" id="jiwoo" >
+        <!--18--><img src="cardssmall/soominfrnt.png" class="crd" id="soomin" >
+        <!--19--><img src="cardssmall/backcrd.png" class="crd"  id="kaede" >
+        <!--20--><img src="cardssmall/yeonjifrnt.png" class="crd"  id="yeonij">
+        <!--21--><img src="cardssmall/xinyufrnt.png" class="crd"  id="xinyu" >
+        <!--22--><img src="cardssmall/joobinfrnt.png" class="crd"  id="joobin" >
+        <!--23--><img src="cardssmall/backcrd.png" class="crd"  id="chaewon" >
+        <!--23--><img src="cardssmall/jiyeonfrnt.png" class="crd" id="jiyeon" >
 
     </div>
     
 
     <div id="popup">
         <p id="txtbox"></p>
-        <img src='' id="crds">
+        <img src="" id="crds">
+        <p id="mem"></p>
+        <p id="ttl"></p>
         <p id="qty"></p>
-        <div id="bgss">
-        <img src="blackbg.png" onclick="hide()">
     </div>
+    <div id="bgss">
+        <img src="blackbg.png" onclick="hide()">
     </div>
     
    
@@ -91,15 +94,16 @@ content="width=device-width, initial-scale=1">
                     
                     
                     if(e.target.class = 'crd'){
-                        document.getElementById('crds').src = "./cards/" + data[crl].card;
+                        document.getElementById('crds').src = "/cards/" + data[crl].card;
                         txt.style.display = 'block'
                         pops.style.display = 'block'
                         blk.style.display = 'block'
                         //pops.style.animation = 'fdin'
                         //pops.style.animationDuration = '0.3s'
                         //pops.style.animationFillMode = 'both'
-
-                        document.getElementById('qty').innerHTML = data[crl].qty;
+                        document.getElementById('mem').innerHTML = data[crl].code + " " + String(crl);
+                        document.getElementById('ttl').innerHTML = data[crl].title;
+                        document.getElementById('qty').innerHTML = data[crl].lore;
                          
                     }
 
