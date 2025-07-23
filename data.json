@@ -1,4 +1,4 @@
- {  
+{
 
     "jiwoo": {
         "qty":"A sound soul<br>dwells within a sound mind<br>and a sound body.",
@@ -121,6 +121,7 @@
      "???": {
         "card": "backcrd.png",
         "title": "???",
+        "code": "",
         "lore": "A fate yet to be revealed."
     }
 }
