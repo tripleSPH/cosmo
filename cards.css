@@ -249,16 +249,18 @@ margin-top: -1.5vw;
 #foot{
     color: white;
     text-align: center;
+    place-content: center;
     padding: 0.6vw;
     font-size: 0.8vw;
     position: fixed;
+    bottom: 0;
     background: black;
-    margin-top: 3vw;
     width: 100vw;
-    height: 2vw;
+    height: 1.5vw;
+    transform: translate(0,1vw);
 }
 
-
+}
 @media screen and (max-width:599px) {
   body{
     margin: 0 auto;
