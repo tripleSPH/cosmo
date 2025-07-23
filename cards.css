@@ -11,7 +11,7 @@ body{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
 }
 
 /* Track */
@@ -274,7 +274,7 @@ margin-top: -1.5vw;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
