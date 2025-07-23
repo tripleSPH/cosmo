@@ -261,7 +261,7 @@ margin-top: -1.5vw;
     transform: translate(0,0.9vw);
 }
 
-}
+
 @media screen and (max-width:599px) {
   body{
     margin: 0 auto;
