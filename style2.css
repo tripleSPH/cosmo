@@ -157,6 +157,22 @@ body{
   
 }
 
+#foot{
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    place-content: center;
+    padding: 0.6vw;
+    font-size: 0.8vw;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    width: 100vw;
+    height: vw;
+    transform: translate(0,0.9vw);
+}
+
+
 @keyframes back {
 0%{
     margin-left: 17.1875vw;
@@ -185,9 +201,15 @@ body{
 
 @keyframes front {
     0% {
+      opacity: 0;
       margin-left: 17.1875vw;
     }
     
+    0% {
+      opacity:1;
+      margin-left: 17.1875vw;
+    }
+
     50% {
       margin-left: 7vw;
       z-index: 2;
@@ -224,20 +246,8 @@ body{
 
 }
 
-#foot{
-    color: white;
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    place-content: center;
-    padding: 0.6vw;
-    font-size: 0.8vw;
-    position: fixed;
-    bottom: 0;
-    background: black;
-    width: 100vw;
-    height: vw;
-    transform: translate(0,0.9vw);
-}
+
+
 
 @media screen and (max-width:599px) {
   body{
@@ -409,6 +419,21 @@ body{
   margin-left:20vw;
   
 
+}
+
+#foot{
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    place-content: center;
+    padding: 0.6vw;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 0;
+    background: black;
+    width: 100vw;
+    height: 3.5vw;
+    transform: translate(0,2vw);
 }
 
 @keyframes back {
