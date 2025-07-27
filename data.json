@@ -1,5 +1,13 @@
 {
-
+    "seoyeon": {
+        "qty":"Fate is not<br>a path to be followed<br>but a road to be built.",
+        "card": "seoyeonfrnt.png",
+        "cardbck": "seoyeonbck.png",
+        "code": "s1",
+        "title": "The Origin",
+        "lore": "Seoyeon is a human dropped by ██████ on the current universe’s earth tasked with finding the tripleS.<br><br>She has no memory of her past aside from her own name and directive. This gives her a very curious and innocent attitude and approach with her encounters."
+    },
+    
     "jiwoo": {
         "qty":"A sound soul<br>dwells within a sound mind<br>and a sound body.",
         "card": "jiwoofrnt.png",
@@ -108,6 +116,14 @@
         "lore": "Joobin is an orphan at a remote town deep in the mountains. She is born with the Cosmic God of Mass inside of her, a voracious God set to unify all of existence into itself. Unlike her, her older sister Lynn was only born with an attuned body.<br><br>When Joobin was still a toddler, her power went berserk threatening the safety of their village. Their parents, well-attuned with Cosmo, were able to save the village at the cost of their lives. The orphaned siblings have since been taken in by the village however, they became very wary of her.<br><br>Unlike her sister, only very few villagers treat her well while the majority see her as a curse, like a ticking time bomb set to destroy their little town. This treatment made her elusive and anxious around people, even to those who accept her. She only ever interacts with Lynn and often uses her to communicate her own words with others."
     },
 
+    "hayeon": {
+        "qty":"Let your vision<br>lead you to wisdom,<br>not despair.",
+        "card": "hayeonfrnt.png",
+        "cardbck": "hayeonbck.png",
+        "code": "s19",
+        "title": "Astral Vision",
+        "lore": "Hayeon is a licensed Stargazer of the world famous Network of Extra-planetary Traversers (NXT). NXT is composed of individuals who are extremely adept in navigating and understanding the universe beyond our mortal grasps such as observing celestial bodies and patterns and using their knowledge to predict major global events; all of which stemming from their goal of advancing mankind. Their noble and lofty goal makes any licensed member of the network a highly respected individual, almost akin to celebrities.<br><br>Hayeon however, does not receive the same status as her peers. Despite being a rare genius even amongst the network's members, she is ridiculously incompetent when it comes to matters outside of Cosmic astrology which makes her very susceptible to trickery and lies. Her extraordinary abilities and countless achievements made those around her jealous, eventually exploiting her gullibility and dragging her reputation making people view her a fraud.<br><br>Now unemployed and penniless, she travels from city to city on foot and offers her extraordinary services to anyone for a cheap sum. Not many people would buy her story though and those who would become her patrons would use her powers for undignified acts giving her a notorious reputation unbeknownst to her."
+    },
 
     "jiyeon": {
         "qty":"Hope is lost<br>once you give up searching.",
